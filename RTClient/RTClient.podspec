@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '12.0'
 
   # 解压 ZIP 文件后指定 vendored_frameworks 的相对路径
-  s.vendored_frameworks = 'RTClient/RTClient.framework'
+  s.vendored_frameworks = 'RTClient.framework'
 
   # 开启 ARC 支持
   s.requires_arc      = true
