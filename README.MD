@@ -7,3 +7,6 @@
 1. 修改.podspec s.version
 2. 打s.version对应的tag
 3. push origin
+4. pod repo push xccpod RTClient.podspec --allow-warnings --verbose
+
+xccpod是私有pod库，地址是https://github.com/cc673459362/xccpod
