@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
 
   # 解压 ZIP 文件后指定 vendored_frameworks 的相对路径
   s.vendored_frameworks = 'RTClient.framework'
+  s.library           = 'c++'
 
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
